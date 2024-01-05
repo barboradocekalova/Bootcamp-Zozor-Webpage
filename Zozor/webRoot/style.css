@@ -1,0 +1,80 @@
+﻿/* Main elements of the page */
+
+body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    background-color:beige;
+    font-size: small;
+}
+
+#main_wrapper
+{
+    width: 850px;
+    margin: auto;
+}
+
+.line {
+    width: 100%;
+    height: 3px;
+}
+#main_title > h1 {
+    display: inline-block;
+    font-family: 'Playball', cursive;
+    margin-bottom: 0px;
+}
+#main_wrapper nav {
+    margin-left: 390px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+#reflections {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    width: 100%;
+    height: 40px;
+    position: absolute; top: 333px;
+}
+
+#banner_image {
+    display: flex;
+}
+
+#button {
+    display: inline-block;
+}
+
+.section {
+    display: flex;
+    gap: 20px;
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.article {
+    flex: 3.7;
+}
+
+.aside {
+    flex: 1.6;
+    background-color: grey;
+    padding: 5px;
+}
+
+#pin {
+    float: left;
+}
+
+.footer {
+    display: inline-block;
+}
+/* Header */
+
+
+/* Banner */
+
+
+/* Body */
+
+
+/* Footer */
+
+
